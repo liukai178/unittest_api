@@ -579,3 +579,186 @@ teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
 2020-08-27 22:54:05,484 - [handlelog.py-->line:39] - INFO:调试一下下
 2020-08-27 22:54:14,015 - [handlelog.py-->line:39] - INFO:调试一下下
 2020-09-15 23:08:52,911 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 15:05:53,218 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 15:05:54,403 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
+2020-09-24 15:05:54,507 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
+2020-09-24 15:05:54,831 - [test_my_push.py-->line:82] - ERROR:用例全部店铺执行不通过
+2020-09-24 15:05:54,832 - [test_my_push.py-->line:84] - ERROR:1 != 2
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\test_my_push.py", line 76, in test001_my_push
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-24 15:05:54,959 - [test_my_push.py-->line:82] - ERROR:用例上架中执行不通过
+2020-09-24 15:05:54,960 - [test_my_push.py-->line:84] - ERROR:1 != 2
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\test_my_push.py", line 76, in test001_my_push
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-24 15:05:55,080 - [test_my_push.py-->line:82] - ERROR:用例店铺分类为空执行不通过
+2020-09-24 15:05:55,080 - [test_my_push.py-->line:84] - ERROR:0 != 2
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\test_my_push.py", line 76, in test001_my_push
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-24 16:05:22,464 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 16:07:33,339 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 16:07:33,735 - [test_my_push.py-->line:82] - ERROR:用例全部店铺执行不通过
+2020-09-24 16:07:33,736 - [test_my_push.py-->line:84] - ERROR:1 != 2
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_my_push.py", line 76, in test001_my_push
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-24 16:07:33,852 - [test_my_push.py-->line:82] - ERROR:用例上架中执行不通过
+2020-09-24 16:07:33,853 - [test_my_push.py-->line:84] - ERROR:1 != 2
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_my_push.py", line 76, in test001_my_push
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-09-24 16:07:33,949 - [test_my_push.py-->line:82] - ERROR:用例店铺分类为空执行不通过
+2020-09-24 16:07:33,950 - [test_my_push.py-->line:84] - ERROR:0 != 2
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_my_push.py", line 76, in test001_my_push
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-09-24 16:07:34,580 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
+2020-09-24 16:07:34,685 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
+2020-09-24 16:12:58,785 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 16:12:59,444 - [test_my_push.py-->line:90] - INFO:用例全部店铺执行通过
+2020-09-24 16:12:59,716 - [test_my_push.py-->line:90] - INFO:用例上架中执行通过
+2020-09-24 16:12:59,836 - [test_my_push.py-->line:90] - INFO:用例店铺分类为空执行通过
+2020-09-24 16:13:00,275 - [test_record.py-->line:82] - ERROR:用例浏览记录_转让执行不通过
+2020-09-24 16:13:00,276 - [test_record.py-->line:84] - ERROR:0 != 1
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_record.py", line 76, in test001_record
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2020-09-24 16:13:00,563 - [test_record.py-->line:82] - ERROR:用例浏览记录_出租执行不通过
+2020-09-24 16:13:00,563 - [test_record.py-->line:84] - ERROR:0 != 1
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_record.py", line 76, in test001_record
+    self.assertEqual(expected['code'], result['code'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 905, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 1
+2020-09-24 16:13:01,052 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
+2020-09-24 16:13:01,158 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
+2020-09-24 16:15:32,338 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 16:15:32,929 - [test_my_push.py-->line:90] - INFO:用例全部店铺执行通过
+2020-09-24 16:15:33,163 - [test_my_push.py-->line:90] - INFO:用例上架中执行通过
+2020-09-24 16:15:33,313 - [test_my_push.py-->line:90] - INFO:用例店铺分类为空执行通过
+2020-09-24 16:15:33,748 - [test_record.py-->line:82] - ERROR:用例浏览记录_转让执行不通过
+2020-09-24 16:15:33,748 - [test_record.py-->line:84] - ERROR:'string' != 'success'
+- string
++ success
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_record.py", line 77, in test001_record
+    self.assertEqual(expected['msg'], result['msg'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'string' != 'success'
+- string
++ success
+
+2020-09-24 16:15:34,036 - [test_record.py-->line:82] - ERROR:用例浏览记录_出租执行不通过
+2020-09-24 16:15:34,036 - [test_record.py-->line:84] - ERROR:'string' != 'success'
+- string
++ success
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_record.py", line 77, in test001_record
+    self.assertEqual(expected['msg'], result['msg'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'string' != 'success'
+- string
++ success
+
+2020-09-24 16:15:34,545 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
+2020-09-24 16:15:34,654 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
+2020-09-24 16:19:34,935 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 16:19:35,571 - [test_my_push.py-->line:90] - INFO:用例全部店铺执行通过
+2020-09-24 16:19:35,768 - [test_my_push.py-->line:90] - INFO:用例上架中执行通过
+2020-09-24 16:19:35,877 - [test_my_push.py-->line:90] - INFO:用例店铺分类为空执行通过
+2020-09-24 16:19:36,324 - [test_record.py-->line:90] - INFO:用例浏览记录_转让执行通过
+2020-09-24 16:19:36,604 - [test_record.py-->line:90] - INFO:用例浏览记录_出租执行通过
+2020-09-24 16:19:37,105 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
+2020-09-24 16:19:37,212 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
+2020-09-24 16:37:38,840 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-24 16:37:39,494 - [test_my_push.py-->line:90] - INFO:用例全部店铺执行通过
+2020-09-24 16:37:39,742 - [test_my_push.py-->line:90] - INFO:用例上架中执行通过
+2020-09-24 16:37:39,896 - [test_my_push.py-->line:90] - INFO:用例店铺分类为空执行通过
+2020-09-24 16:37:40,345 - [test_record.py-->line:90] - INFO:用例浏览记录_转让执行通过
+2020-09-24 16:37:40,637 - [test_record.py-->line:90] - INFO:用例浏览记录_出租执行通过
+2020-09-24 16:37:40,920 - [test_record_delete.py-->line:82] - ERROR:用例浏览记录删除_转让执行不通过
+2020-09-24 16:37:40,921 - [test_record_delete.py-->line:84] - ERROR:'success' != '删除成功'
+- success
++ 删除成功
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_record_delete.py", line 77, in test001_record
+    self.assertEqual(expected['msg'], result['msg'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != '删除成功'
+- success
++ 删除成功
+
+2020-09-24 16:37:41,044 - [test_record_delete.py-->line:82] - ERROR:用例浏览记录删除_出租执行不通过
+2020-09-24 16:37:41,044 - [test_record_delete.py-->line:84] - ERROR:'success' != '删除成功'
+- success
++ 删除成功
+Traceback (most recent call last):
+  File "F:\guoyou\U盘\Desktop\kuangjia_new\testcases\个人中心\test_record_delete.py", line 77, in test001_record
+    self.assertEqual(expected['msg'], result['msg'])
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 912, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 1292, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\unittest\case.py", line 753, in fail
+    raise self.failureException(msg)
+AssertionError: 'success' != '删除成功'
+- success
++ 删除成功
+
+2020-09-24 16:37:41,570 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
+2020-09-24 16:37:41,687 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
