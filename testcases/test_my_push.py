@@ -26,7 +26,7 @@ class Test_My_Push(unittest.TestCase):
     def setUpClass(cls):
         # # 忽略这个报错
         warnings.simplefilter("ignore", ResourceWarning)
-        #get_token()
+        get_token()
         #第一步：准备接口请求的数据
         url = conf.get("env","url") + '/login'
         # print(url)
