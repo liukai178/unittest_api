@@ -28,24 +28,24 @@ class Test_My_Push(unittest.TestCase):
         warnings.simplefilter("ignore", ResourceWarning)
         get_token()
         #第一步：准备接口请求的数据
-        url = conf.get("env","url") + '/login'
+        #url = conf.get("env","url") + '/login'
         # print(url)
-        data = {'mobile':conf.get('test-data','mobile'),
+        #data = {'mobile':conf.get('test-data','mobile'),
                 'password':conf.get('test-data','password')}
-        headers = conf.get('env','headers')
+        #headers = conf.get('env','headers')
         #第二步：发送接口请求是为了让登录接口和登录后的接口保持会话
 
-        response = cls.request.send(method='post',url=url,data=data,headers=headers)
-        res = response.json()
+        #response = cls.request.send(method='post',url=url,data=data,headers=headers)
+        #res = response.json()
         #print(res)
-        token = res['data']['token']
-        result_1 = {"Content-Type":"application/json","token":token}
+        #token = res['data']['token']
+        #result_1 = {"Content-Type":"application/json","token":token}
         #print(result_1)
         # 重新拼接最新的token并写入配置文件
-        config = configparser.ConfigParser()
-        config.read(filename)
-        config.set("env", "headers", str(result_1))
-        config.write(open(filename, "w"))
+        #config = configparser.ConfigParser()
+        #config.read(filename)
+        #config.set("env", "headers", str(result_1))
+        #config.write(open(filename, "w"))
 
     @data(*cases)
     def test001_my_push(self,case):
