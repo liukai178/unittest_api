@@ -29,5 +29,4 @@ def auto_run():
 if __name__ == '__main__':
     auto_run()
     send_email(filename,"链铺接口自动化测试报告")
-    #dddddddddddd
-    #aaaaaaaaaaa
+    #push test
