@@ -18,7 +18,7 @@ case_file = os.path.join(DATADIR,"apicase.xlsx")
 filename = os.path.join(CONFDIR,'config.ini')
 print(filename)
 @ddt
-class Test_Record_Delete(unittest.TestCase):
+class My_Push_Del(unittest.TestCase):
     excel = ReadExcel(case_file,"my_push_del")
     cases = excel.read_data()
     request = SendRequests()
@@ -48,7 +48,7 @@ class Test_Record_Delete(unittest.TestCase):
         config.write(open(filename, "w"))
 
     @data(*cases)
-    def test001_record(self,case):
+    def test001_my_push_del(self,case):
         url = conf.get("env", "url") + case["url"]
         # print(url)
         method = case['method']

@@ -762,3 +762,16 @@ AssertionError: 'success' != '删除成功'
 
 2020-09-24 16:37:41,570 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
 2020-09-24 16:37:41,687 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
+2020-09-25 17:33:34,759 - [handlelog.py-->line:39] - INFO:调试一下下
+2020-09-25 17:33:35,578 - [test_my_push.py-->line:90] - INFO:用例全部店铺执行通过
+2020-09-25 17:33:35,796 - [test_my_push.py-->line:90] - INFO:用例上架中执行通过
+2020-09-25 17:33:35,914 - [test_my_push.py-->line:90] - INFO:用例店铺分类为空执行通过
+2020-09-25 17:33:36,184 - [test_my_push_del.py-->line:90] - INFO:用例全部店铺执行通过
+2020-09-25 17:33:36,303 - [test_my_push_del.py-->line:90] - INFO:用例上架中执行通过
+2020-09-25 17:33:36,426 - [test_my_push_del.py-->line:90] - INFO:用例店铺分类为空执行通过
+2020-09-25 17:33:36,912 - [test_record.py-->line:90] - INFO:用例浏览记录_转让执行通过
+2020-09-25 17:33:37,310 - [test_record.py-->line:90] - INFO:用例浏览记录_出租执行通过
+2020-09-25 17:33:37,605 - [test_record_delete.py-->line:90] - INFO:用例浏览记录删除_转让执行通过
+2020-09-25 17:33:37,743 - [test_record_delete.py-->line:90] - INFO:用例浏览记录删除_出租执行通过
+2020-09-25 17:33:38,331 - [test_login.py-->line:54] - INFO:用例登录成功执行通过
+2020-09-25 17:33:38,446 - [test_login.py-->line:54] - INFO:用例账号不正确执行通过
