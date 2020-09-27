@@ -8,7 +8,9 @@ from common.HANDLE_EMAIL import send_email
 # 格式化显示当前时间
 now = time.strftime('%Y-%m-%d-%H-%M')
 # 定义生成报告的名称
-filename = REPORTDIR + "\\" + str(now) + '_api_report.html'
+# filename = REPORTDIR + "\\" + str(now) + '_api_report.html'
+filename = REPORTDIR + "\\" + '_api_report.html'
+
 print(filename)
 
 def auto_run():
