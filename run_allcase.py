@@ -26,7 +26,7 @@ def auto_run():
     runner.run(discover)
     #关闭文件
     f.close()
-	print("本地修改未上传")
+
 
 if __name__ == '__main__':
     auto_run()
