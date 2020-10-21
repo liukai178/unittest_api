@@ -19,13 +19,14 @@ def auto_run():
     #打开报告文件并写入
     f = open(filename,'wb')
     runner = HTMLTestReportCN(stream=f,
-                              title="链铺接口自动化测试报告",
+                              title="链铺接口自动化测试报告11",
                               description='用例执行情况如下：',
                               tester='测试—刘凯')
     #运行HT中的run方法，参数为自动搜索出的用例
     runner.run(discover)
     #关闭文件
     f.close()
+	print("本地修改未上传")
 
 if __name__ == '__main__':
     auto_run()

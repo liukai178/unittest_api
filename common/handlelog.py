@@ -19,7 +19,7 @@ class HandleLog(object):
         # 丢到日志收集器中去
 
         #创建输出到文件的日志等级
-        fh = logging.FileHandler(os.path.join(LOGDIR,"log.log"))
+        fh = logging.FileHandler(os.path.join(LOGDIR,"log.log"),encoding="UTF-8")
         # 输出到的文件及其目录
         fh.setLevel(conf.get("log","fh_level"))
         #设置级别（info）
