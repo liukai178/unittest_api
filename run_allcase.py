@@ -26,6 +26,7 @@ def auto_run():
     runner.run(discover)
     #关闭文件
     f.close()
+    print('构建成功')
 
 if __name__ == '__main__':
     auto_run()
