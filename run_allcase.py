@@ -17,15 +17,16 @@ def auto_run():
     #自动搜索测试用例
     discover = unittest.defaultTestLoader.discover(CASEDIR,'test_*.py')#根据需求选择筛选用例，此处是选择所有test开头的py文件
     #打开报告文件并写入
-    f = open(filename,'wb')
-    runner = HTMLTestReportCN(stream=f,
-                              title="链铺接口自动化测试报告11",
-                              description='用例执行情况如下：',
-                              tester='测试—刘凯')
-    #运行HT中的run方法，参数为自动搜索出的用例
-    runner.run(discover)
-    #关闭文件
-    f.close()
+    # f = open(filename,'wb')
+    with open(filename,'wb')as f:
+        runner = HTMLTestReportCN(stream=f,
+                                  title="链铺接口自动化测试报告11",
+                                  description='用例执行情况如下：',
+                                  tester='测试—刘凯')
+        #运行HT中的run方法，参数为自动搜索出的用例
+        runner.run(discover)
+        #关闭文件(使用with后不用手动添加关闭，不对文件进行操作时会自己进行关闭文件)
+        # f.close()
 
 
 if __name__ == '__main__':

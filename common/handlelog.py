@@ -1,5 +1,5 @@
-# 生成log的工具
 # coding = utf-8
+# 生成log的工具
 import logging
 from common.handleconfig import conf
 import os
